@@ -1,0 +1,84 @@
+header{
+    height: 100vh;
+    background-image: url(../images/bg.jpg);
+    background-color: rgb(77, 70, 70);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: lighten;
+    position: relative;
+}
+.nav-link{
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.scrolldown{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 3%;
+    color: #fff;
+    font-size: 35px;
+}
+.first-section-card img{
+    width: 70px;
+}
+.second-section{
+    position: relative;
+}
+.line{
+    width: 40px;
+    height: 5px;
+    background-color: orange;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.second-section-card h2{
+    width: 70px;
+}
+.second-section-card h2::first-letter{
+    font-size: 75px;
+}
+.second-sec-a a{
+    text-decoration: none;
+    color: yellow;
+}
+.col-lg-4 img{
+    width: 100%;
+    max-width: 100%;
+    padding-top: 20px;
+}
+.carousel-item{
+    height: 400px;
+    padding-top: 100px;
+}
+.carousel-item img{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.sliderss .carousel-inner{
+    background-color: #2e4862;
+    background-image: url(../images/slid.jfif);
+    background-blend-mode: lighten;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-txt{
+    
+    text-align: center;
+    color: #fff;
+}
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.carousel-indicators .active{
+    opacity: 1;
+    background-color: #000;
+
+}

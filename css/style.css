@@ -7,6 +7,9 @@ header{
     background-blend-mode: lighten;
     position: relative;
 }
+html {
+    scroll-behavior: smooth;
+  }
 .nav-link{
     color: #fff !important;
     text-transform: uppercase;
